@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+	<title>Heroes Lore and Dota 2 History - Heroes Lore of Dota 2</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navban" role="navigation">
+		<div class="containter-fluid">
+			<nav class="navbar navbar-inverse">
+				<div class="containter-fluid navtext">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="index.html">Heroes and Lore</a>
+					</div>
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li class="active">
+							<a href="heroes.html">Heroes of Dota 2</a>
+						</li>
+						<li class="logo">
+							<a href="Home"><img class="logosize" src="img/logoblack.png" alt="logo"></a>
+						</li>
+						<li>
+							<a href="history.html">History of Dota 2</a>
+						</li>
+						<li>
+							<a href="about.html">About</a>
+						</li>	
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</nav>
+	<hr>
+	<!-- end of navigation -->
+	<main>
+		<div class="col-xs-6 col-md-6">
+			<h4 class="heroname">Earthshaker</h4>
+			<div class="popup" onclick="myFunction()"><img class="heroimage" src="img/earthshaker_full.png">
+		  		<span class="popuptext" id="myPopup">Like a golem or gargoyle, Earthshaker was one with the earth but now walks freely upon it. Unlike those other entities, he created himself through an act of will, and serves no other master. In restless slumbers, encased in a deep seam of stone, he became aware of the life drifting freely above him. He grew curious. During a season of tremors, the peaks of Nishai shook themselves loose of avalanches, shifting the course of rivers and turning shallow valleys into bottomless chasms. When the land finally ceased quaking, Earthshaker stepped from the settling dust, tossing aside massive boulders as if throwing off a light blanket. He had shaped himself in the image of a mortal beast, and named himself Raigor Stonehoof. He bleeds now, and breathes, and therefore he can die. But his spirit is still that of the earth; he carries its power in the magical totem that never leaves him. And on the day he returns to dust, the earth will greet him as a prodigal son.	</span>
+			</div>
+		</div>
+
+		<div class="col-xs-6 col-md-6">
+			<h4 class="heroname">Juggernaut</h4>
+			<div class="popup" onclick="myFunction1()"><img class="heroimage" src="img/juggernaut_full.png">
+		  		<span class="popuptext" id="myPopup1">No one has ever seen the face hidden beneath the mask of Yurnero the Juggernaut. It is only speculation that he even has one. For defying a corrupt lord, Yurnero was exiled from the ancient Isle of Masks--a punishment that saved his life. The isle soon after vanished beneath the waves in a night of vengeful magic. He alone remains to carry on the Isle's long Juggernaut tradition, one of ritual and swordplay. The last practitioner of the art, Yurnero's confidence and courage are the result of endless practice; his inventive bladework proves that he has never stopped challenging himself. Still, his motives are as unreadable as his expression. For a hero who has lost everything twice over, he fights as if victory is a foregone conclusion.</span>
+			</div>
+		</div>
+	</main>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction() {
+	    var popup = document.getElementById("myPopup");
+	    popup.classList.toggle("show");
+	}
+	function myFunction1() {
+	    var popup = document.getElementById("myPopup1");
+	    popup.classList.toggle("show");
+	}
+	</script>
+
+</body>
+</html>
